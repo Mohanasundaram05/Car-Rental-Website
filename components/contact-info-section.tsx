@@ -23,7 +23,7 @@ export function ContactInfoSection() {
       icon: MapPin,
       title: "Visit Us",
       description: "Come to our office for in-person assistance",
-      details: ["123 Business District", "Mumbai, Maharashtra 400001", "India"],
+      details: ["123 Business District", "Coimbatore, Tamil Nadu 641016", "India"],
       color: "bg-purple-500",
     },
     {
@@ -37,14 +37,14 @@ export function ContactInfoSection() {
 
   const officeLocations = [
     {
-      city: "Mumbai",
-      address: "123 Business District, Mumbai 400001",
+      city: "Coimbatore",
+      address: "123 Gandhipuram, Coimbatore 641016",
       phone: "+91 98765 43210",
       type: "Headquarters",
     },
     {
-      city: "Delhi",
-      address: "456 Connaught Place, New Delhi 110001",
+      city: "Palakkad",
+      address: "Kallekkulangara, Olavakode, Palakkad 678002",
       phone: "+91 98765 43211",
       type: "Branch Office",
     },
