@@ -55,5 +55,4 @@ A modern, full-featured car rental web application built with Next.js, React, an
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## License
-
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License – see the [MIT](LICENSE) file for details.
