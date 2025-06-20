@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 export function ContactMapSection() {
   const locations = [
     {
-      id: "mumbai",
-      name: "Mumbai Headquarters",
+      id: "Coimbatore",
+      name: "Coimbatore Headquarters",
       address: "123 Business District, Mumbai, Maharashtra 400001",
       phone: "+91 98765 43210",
       hours: "Mon-Fri: 9 AM - 8 PM, Sat: 9 AM - 6 PM",
