@@ -180,14 +180,14 @@ export const carsData: Car[] = [
       "The Porsche 911 GT3 RS represents the future of driving with cutting-edge electric technology and autonomous features.",
     gallery: {
       light: [
-        "/cr6.png?height=400&width=600&text=Tesla+Gallery+1+Light",
-        "/cr6.png?height=400&width=600&text=Tesla+Gallery+2+Light",
-        "/cr6.png?height=400&width=600&text=Tesla+Gallery+3+Light",
+        "/cr61.png?height=400&width=600&text=Tesla+Gallery+1+Light",
+        "/cr62.png?height=400&width=600&text=Tesla+Gallery+2+Light",
+        "/cr63.png?height=400&width=600&text=Tesla+Gallery+3+Light",
       ],
       dark: [
-        "/cr6.png?height=400&width=600&text=Tesla+Gallery+1+Dark&bg=1a1a1a&color=ffffff",
-        "/cr6.png?height=400&width=600&text=Tesla+Gallery+2+Dark&bg=1a1a1a&color=ffffff",
-        "/cr6.png?height=400&width=600&text=Tesla+Gallery+3+Dark&bg=1a1a1a&color=ffffff",
+        "/cr61.png?height=400&width=600&text=Tesla+Gallery+1+Dark&bg=1a1a1a&color=ffffff",
+        "/cr62.png?height=400&width=600&text=Tesla+Gallery+2+Dark&bg=1a1a1a&color=ffffff",
+        "/cr63.png?height=400&width=600&text=Tesla+Gallery+3+Dark&bg=1a1a1a&color=ffffff",
       ],
     },
   },
