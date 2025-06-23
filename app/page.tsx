@@ -5,6 +5,7 @@ import { HowItWorksSection } from "@/components/how-it-works-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { CTASection } from "@/components/cta-section"
 import { ParallaxPageIndicator } from "@/components/parallax-page-indicator"
+import SupabaseTest from '@/components/supabase-test'
 
 const sections = [
   { id: "hero", name: "Home" },
@@ -42,6 +43,10 @@ export default function HomePage() {
 
       <section id="cta">
         <CTASection />
+      </section>
+
+      <section id="supabase-test">
+        <SupabaseTest />
       </section>
     </div>
   )
