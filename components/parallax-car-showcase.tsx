@@ -143,7 +143,7 @@ export function ParallaxCarShowcase() {
       name: "Rolls-Royce Phantom Luxury",
       lightImage: "/sh1.png?height=400&width=600&text=BMW+X5+Showcase+Light",
       darkImage: "/sh1.png?height=400&width=600&text=BMW+X5+Showcase+Dark&bg=1a1a1a&color=ffffff",
-      price: 9999,
+      price: 2999,
       description:
         "Experience the pinnacle of luxury with the Rolls-Royce Phantom. This premium SUV combines cutting-edge technology with unmatched comfort, making every journey an extraordinary experience.",
       tags: ["Luxury", "SUV", "Premium"],
