@@ -146,7 +146,7 @@ export function ParallaxCarShowcase() {
       price: 2999,
       description:
         "Experience the pinnacle of luxury with the Rolls-Royce Phantom. This premium SUV combines cutting-edge technology with unmatched comfort, making every journey an extraordinary experience.",
-      tags: ["Luxury", "SUV", "Premium"],
+      tags: ["Luxury", "Sedan", "Premium"],
     },
     {
       id: 6,
@@ -156,7 +156,7 @@ export function ParallaxCarShowcase() {
       price: 9199,
       description:
         "Step into the future with the Porsche 911 GT3 RS. Revolutionary electric technology meets sleek design in this groundbreaking sedan that redefines sustainable luxury.",
-      tags: ["Electric", "Innovation", "Eco-Friendly"],
+      tags: ["Performance", "Track-Ready", "Sports"],
     },
     {
       id: 7,

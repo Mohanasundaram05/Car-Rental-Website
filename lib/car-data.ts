@@ -33,12 +33,12 @@ export const carsData: Car[] = [
     fuel: "Petrol",
     transmission: "Automatic",
     seats: 5,
-    tags: ["Luxury", "SUV"],
-    type: "SUV",
+    tags: ["Luxury", "Sedan"],
+    type: "Sedan",
     rating: 4.8,
     reviews: 124,
     description:
-      "Experience luxury and performance with the Rolls-Royce Phantom. This premium SUV combines elegant design with cutting-edge technology, making it perfect for both city driving and long road trips.",
+      "Experience luxury and performance with the Rolls-Royce Phantom. This premium sedan combines elegant design with cutting-edge technology, making it perfect for both city driving and long road trips.",
     gallery: {
       light: [
         "/cr11.png?height=400&width=600&text=BMW+X5+Gallery+1+Light",
@@ -89,11 +89,11 @@ export const carsData: Car[] = [
     fuel: "Petrol",
     transmission: "Automatic",
     seats: 5,
-    tags: ["Premium", "Sedan"],
-    type: "Sedan",
+    tags: ["Luxury", "Performance", "Sportback"],
+    type: "Sportback",
     rating: 4.6,
     reviews: 87,
-    description: "The Audi RS 7 Mansory delivers premium comfort and advanced technology in an elegantly designed sedan.",
+    description: "The Audi RS 7 Mansory delivers premium comfort and advanced technology in an elegantly designed sportback.",
     gallery: {
       light: [
         "/cr31.png?height=400&width=600&text=Audi+Gallery+1+Light",
@@ -116,8 +116,8 @@ export const carsData: Car[] = [
     fuel: "Hybrid",
     transmission: "Automatic",
     seats: 5,
-    tags: ["Economy", "Sedan"],
-    type: "Sedan",
+    tags: ["Luxury", "SUV", "Hybrid"],
+    type: "SUV",
     rating: 4.5,
     reviews: 156,
     description:
@@ -144,12 +144,12 @@ export const carsData: Car[] = [
     fuel: "Petrol",
     transmission: "Automatic",
     seats: 5,
-    tags: ["Family", "SUV"],
-    type: "SUV",
+    tags: ["Luxury", "Coupe", "Grand Tourer"],
+    type: "Coupe",
     rating: 4.4,
     reviews: 203,
     description:
-      "The Bentley Continental GT is the perfect family SUV, offering spacious interiors, excellent safety features, and reliable performance.",
+      "The Bentley Continental GT is the perfect family coupe, offering spacious interiors, excellent safety features, and reliable performance.",
     gallery: {
       light: [
         "/cr51.png?height=400&width=600&text=Honda+Gallery+1+Light",
@@ -171,9 +171,9 @@ export const carsData: Car[] = [
     price: 9199,
     fuel: "Electric",
     transmission: "Automatic",
-    seats: 5,
-    tags: ["Electric", "Sedan"],
-    type: "Sedan",
+    seats: 2,
+    tags: ["Performance", "Track-Ready", "Coupe"],
+    type: "Coupe",
     rating: 4.9,
     reviews: 312,
     description:
@@ -201,7 +201,7 @@ export const carsData: Car[] = [
     transmission: "Manual",
     seats: 4,
     tags: ["Sports", "Coupe"],
-    type: "Sports",
+    type: "Coupe",
     rating: 4.7,
     reviews: 89,
     description:
@@ -226,14 +226,14 @@ export const carsData: Car[] = [
     darkImage: "/cr8.png?height=300&width=400&text=VW+Golf+Dark&bg=1a1a1a&color=ffffff",
     price: 4999,
     fuel: "Petrol",
-    transmission: "Manual",
+    transmission: "Automatic",
     seats: 5,
-    tags: ["Economy", "Hatchback"],
-    type: "Hatchback",
+    tags: ["Luxury", "SUV", "Crossover"],
+    type: "SUV",
     rating: 4.3,
     reviews: 145,
     description:
-      "The BMW X6 offers German engineering excellence in a compact, efficient, and versatile hatchback.",
+      "The BMW X6 offers German engineering excellence in a compact, efficient, and versatile SUV.",
     gallery: {
       light: [
         "/cr81.png?height=400&width=600&text=VW+Gallery+1+Light",
