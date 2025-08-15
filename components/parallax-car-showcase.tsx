@@ -166,7 +166,7 @@ export function ParallaxCarShowcase() {
       price: 7999,
       description:
         "Unleash your passion with the iconic Ford Mustang GT. Pure American muscle meets modern performance in this legendary sports car that turns every drive into an adventure.",
-      tags: ["Sports", "Performance", "Iconic"],
+      tags:  ["Sports", "Performance", "Iconic"],
     },
   ]
 

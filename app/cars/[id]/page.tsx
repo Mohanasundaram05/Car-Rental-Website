@@ -1,18 +1,19 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { ScrollReveal } from "@/components/scroll-reveal"
-import { ThemeImageGallery } from "@/components/theme-image-gallery"
-import Link from "next/link"
-import { Star, Fuel, Users, Settings, MapPin, Shield, Wifi } from "lucide-react"
-import { carsData } from "@/lib/car-data"
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { ScrollReveal } from "@/components/scroll-reveal";
+import { ThemeImageGallery } from "@/components/theme-image-gallery";
+import Link from "next/link";
+import { Star, Fuel, Users, Settings, MapPin, Shield, Wifi } from "lucide-react";
+import { carsData } from "@/lib/car-data";
+import { useParams } from "next/navigation"; // ✅ import useParams
 
-export default function CarDetailPage({ params }: { params: { id: string } }) {
-  // Find the car by ID (in a real app, this would be an API call)
-  const carId = Number.parseInt(params.id)
-  const car = carsData.find((c) => c.id === carId) || carsData[0] // Fallback to first car
+export default function CarDetailPage() {
+  const { id } = useParams<{ id: string }>(); // ✅ get id from params
+  const carId = Number.parseInt(id);
+  const car = carsData.find((c) => c.id === carId) || carsData[0];
 
   const features = [
     { icon: Fuel, name: "Fuel Type", value: car.fuel },
@@ -21,7 +22,7 @@ export default function CarDetailPage({ params }: { params: { id: string } }) {
     { icon: MapPin, name: "GPS", value: "Included" },
     { icon: Shield, name: "Insurance", value: "Full Coverage" },
     { icon: Wifi, name: "WiFi", value: "Available" },
-  ]
+  ];
 
   return (
     <div className="min-h-screen pt-20 bg-gray-50 dark:bg-gray-900">
@@ -123,5 +124,5 @@ export default function CarDetailPage({ params }: { params: { id: string } }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
